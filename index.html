@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VHL - Virtual Hockey League</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-hockey-puck"></i>
+                    <span>VHL</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Главная</a></li>
+                    <li><a href="#teams" class="nav-link">Команды</a></li>
+                    <li><a href="#standings" class="nav-link">Турнирная таблица</a></li>
+                    <li><a href="#schedule" class="nav-link">Расписание</a></li>
+                    <li><a href="#captains" class="nav-link">Капитаны</a></li>
+                    <li><a href="#news" class="nav-link">Новости</a></li>
+                </ul>
+               <div class="hamburger">
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Virtual Hockey League</h1>
+                <p class="hero-subtitle">Добро пожаловать в виртуальную хоккейную лигу Puck</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">8</span>
+                        <span class="stat-label">Команд</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">0</span>
+                        <span class="stat-label">Матчей</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">1</span>
+                        <span class="stat-label">Чемпион</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-background">
+                <div class="ice-effect"></div>
+            </div>
+        </section>
+
+        <!-- Teams Section -->
+        <section id="teams" class="teams-section">
+            <div class="container">
+                <h2 class="section-title">Команды лиги</h2>
+                <div class="teams-grid">
+                    <div class="team-card" data-team="akm">
+                        <div class="team-logo">
+                            <img src="logos/АКМ.png" alt="АКМ" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">АКМ</h3>
+                        <p class="team-city">Тула</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="buran">
+                        <div class="team-logo">
+                            <img src="logos/Буран.png" alt="Буран" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Буран</h3>
+                        <p class="team-city">Воронеж</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="gornyak">
+                        <div class="team-logo">
+                            <img src="logos/Горняк.png" alt="Горняк-УГМК" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Горняк-УГМК</h3>
+                        <p class="team-city">Верхняя Пышма</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="diesel">
+                        <div class="team-logo">
+                            <img src="logos/Дизель.png" alt="Дизель" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Дизель</h3>
+                        <p class="team-city">Пенза</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="dinamo-altai">
+                        <div class="team-logo">
+                            <img src="logos/Динамо-Алтай.png" alt="Динамо-Алтай" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Динамо-Алтай</h3>
+                        <p class="team-city">Барнаул</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="zauralie">
+                        <div class="team-logo">
+                            <img src="logos/Зауралье.png" alt="Зауралье" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Зауралье</h3>
+                        <p class="team-city">Курган</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="metallurg">
+                        <div class="team-logo">
+                            <img src="logos/Металлург.png" alt="Металлург" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Металлург</h3>
+                        <p class="team-city">Новокузнецк</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                    <div class="team-card" data-team="norilsk">
+                        <div class="team-logo">
+                            <img src="logos/Норильск.png" alt="Норильск" class="team-logo-img">
+                        </div>
+                        <h3 class="team-name">Норильск</h3>
+                        <p class="team-city">Норильск</p>
+                        <div class="team-stats">
+                            <span class="wins">Победы: 0</span>
+                            <span class="losses">Поражения: 0</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Standings Section -->
+        <section id="standings" class="standings-section">
+            <div class="container">
+                <h2 class="section-title">Турнирная таблица</h2>
+                <div class="standings-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Место</th>
+                                <th>Команда</th>
+                                <th>И</th>
+                                <th>В</th>
+                                <th>П</th>
+                                <th>О</th>
+                            </tr>
+                        </thead>
+                        <tbody id="standings-body">
+                            <!-- Standings will be populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+                 <!-- Schedule Section -->
+                 <section id="schedule" class="schedule-section">
+                    <div class="container">
+                        <h2 class="section-title">Расписание матчей</h2>
+                        <div class="schedule-placeholder">
+                            <div class="placeholder-content">
+                                <i class="fas fa-calendar-alt"></i>
+                                <h3>Расписание пока не определено</h3>
+                                <p>Расписание матчей сезона 2024/25 будет опубликовано в ближайшее время</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                 <!-- Captains Section -->
+                 <section id="captains" class="captains-section">
+                    <div class="container">
+                        <h2 class="section-title">Набор капитанов</h2>
+                        <div class="captains-content">
+                            <div class="captains-info">
+                                <div class="captains-icon">
+                                    <i class="fas fa-user-tie"></i>
+                                </div>
+                                <h3>Требуются капитаны команд!</h3>
+                                <p>ВХЛ объявляет набор капитанов для всех команд лиги. Если вы хотите стать капитаном одной из команд и вести её к победе, присоединяйтесь к нам!</p>
+                                <div class="captains-features">
+                                    <div class="feature">
+                                        <i class="fas fa-trophy"></i>
+                                        <span>Управление командой</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-users"></i>
+                                        <span>Набор игроков</span>
+                                    </div>
+                                    <div class="feature">
+                                        <i class="fas fa-chart-line"></i>
+                                        <span>Стратегия и тактика</span>
+                                    </div>
+                                </div>
+                                <div class="captains-cta">
+                                    <a href="https://t.me/vhlpuck" target="_blank" rel="noopener noreferrer" class="cta-button">
+                                        <i class="fab fa-telegram"></i>
+                                        Присоединиться к ВХЛ
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+         <!-- News Section -->
+         <section id="news" class="news-section">
+                <!-- News Section -->
+                <section id="news" class="news-section">
+                 <section id="news" class="news-section">
+                    <div class="container">
+                        <h2 class="section-title">Новости лиги</h2>
+                        <div class="news-placeholder">
+                            <div class="placeholder-content">
+                                <i class="fas fa-newspaper"></i>
+                                <h3>Новостей пока нет</h3>
+                                <p>Здесь будут публиковаться новости и события лиги по мере их появления</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+           </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>VHL - Virtual Hockey League</h3>
+                    <p>Официальный сайт виртуальной хоккейной лиги в игре Puck</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#teams">Команды</a></li>
+                        <li><a href="#standings">Турнирная таблица</a></li>
+                        <li><a href="#schedule">Расписание</a></li>
+                        <li><a href="#captains">Капитаны</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="https://t.me/vhlpuck" target="_blank" rel="noopener noreferrer"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+           </div>
+                    <h4>Социальные сети</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 VHL - Virtual Hockey League. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="logos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
