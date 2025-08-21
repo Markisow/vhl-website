@@ -31,7 +31,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 const teamLogoImages = {
     'akm': 'logos/АКМ.png',
     'buran': 'logos/Буран.png',
-    'gornyak': 'logos/Горняк.png',
+    'neftyanik': 'logos/Нефтяник.png',
     'diesel': 'logos/Дизель.png',
     'dinamo-altai': 'logos/Динамо-Алтай.png',
     'zauralie': 'logos/Зауралье.png',
@@ -43,7 +43,7 @@ const teamLogoImages = {
 const teams = [
     { id: 'akm', name: 'АКМ', city: 'Тула', wins: 0, losses: 0, points: 0 },
     { id: 'buran', name: 'Буран', city: 'Воронеж', wins: 0, losses: 0, points: 0 },
-    { id: 'gornyak', name: 'Горняк-УГМК', city: 'Верхняя Пышма', wins: 0, losses: 0, points: 0 },
+    { id: 'neftyanik', name: 'Нефтяник', city: 'Верхняя Пышма', wins: 0, losses: 0, points: 0 },
     { id: 'diesel', name: 'Дизель', city: 'Пенза', wins: 0, losses: 0, points: 0 },
     { id: 'dinamo-altai', name: 'Динамо-Алтай', city: 'Барнаул', wins: 0, losses: 0, points: 0 },
     { id: 'zauralie', name: 'Зауралье', city: 'Курган', wins: 0, losses: 0, points: 0 },

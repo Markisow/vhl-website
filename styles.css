@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     color: #333;
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #1e721f 0%, #2dd517 100%);
     min-height: 100vh;
 }
 
@@ -54,7 +54,7 @@ body {
 
 .nav-logo i {
     margin-right: 10px;
-    color: #00d4ff;
+    color: #73ff00;
     font-size: 2rem;
 }
 
@@ -73,7 +73,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #00d4ff;
+    color: #33ff00;
 }
 
 .nav-link::after {
@@ -83,7 +83,7 @@ body {
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #00d4ff;
+    background-color: #84ff00;
     transition: width 0.3s ease;
 }
 
@@ -113,7 +113,7 @@ body {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    background: linear-gradient(135deg, #1ab70c 0%, #539313 100%);
 }
 
 .hero-background {
@@ -180,8 +180,8 @@ body {
     display: block;
     font-size: 3rem;
     font-weight: 700;
-    color: #00d4ff;
-    text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
+    color: #80ff00;
+    text-shadow: 0 0 10px rgba(17, 255, 0, 0.5);
 }
 
 .stat-label {
@@ -260,7 +260,7 @@ section {
 .team-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-    border-color: #00d4ff;
+    border-color: #66ff00;
 }
 
 .team-logo {
@@ -274,13 +274,13 @@ section {
     width: 80px;
     height: 80px;
     object-fit: contain;
-    filter: drop-shadow(0 0 10px rgba(0, 212, 255, 0.3));
+    filter: drop-shadow(0 0 10px rgba(128, 255, 0, 0.3));
     transition: all 0.3s ease;
 }
 
 .team-card:hover .team-logo-img {
     transform: scale(1.1);
-    filter: drop-shadow(0 0 15px rgba(0, 212, 255, 0.5));
+    filter: drop-shadow(0 0 15px rgb(94, 255, 0));
 }
 
 .team-name {
@@ -333,7 +333,7 @@ th, td {
 }
 
 th {
-    background: rgba(0, 212, 255, 0.2);
+    background: rgba(34, 255, 0, 0.2);
     color: #fff;
     font-weight: 700;
 }
@@ -398,7 +398,7 @@ tr:hover {
 
 .placeholder-content i {
     font-size: 4rem;
-    color: #00d4ff;
+    color: #15ff00;
     margin-bottom: 1rem;
     opacity: 0.7;
 }
@@ -444,7 +444,7 @@ tr:hover {
 }
 
 .vs {
-    color: #00d4ff;
+    color: #5eff00;
     font-weight: 700;
 }
 
@@ -482,7 +482,7 @@ tr:hover {
 
 .captains-icon {
     font-size: 4rem;
-    color: #00d4ff;
+    color: #00ff0d;
     margin-bottom: 1.5rem;
     text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
 }
@@ -518,7 +518,7 @@ tr:hover {
 }
 
 .feature i {
-    color: #00d4ff;
+    color: #2fff00;
     font-size: 1.2rem;
 }
 
@@ -624,7 +624,7 @@ tr:hover {
 .footer-section h3,
 .footer-section h4 {
     margin-bottom: 1rem;
-    color: #00d4ff;
+    color: #3cff00;
 }
 
 .footer-section ul {
@@ -642,7 +642,7 @@ tr:hover {
 }
 
 .footer-section ul li a:hover {
-    color: #00d4ff;
+    color: #62ff00;
 }
 
 .social-links {
@@ -657,7 +657,7 @@ tr:hover {
 }
 
 .social-links a:hover {
-    color: #00d4ff;
+    color: #84ff00;
 }
 
 .footer-bottom {
